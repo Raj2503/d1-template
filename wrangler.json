@@ -1,0 +1,16 @@
+{
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"name": "d1-template",
+	"upload_source_maps": true,
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_id": "1bd87482-b10e-40da-8959-20d557833535",
+			"database_name": "trippy"
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}
