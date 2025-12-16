@@ -2,6 +2,7 @@ import { renderHtml } from "./renderHtml";
 
 export default {
 	async fetch(request, env) {
+		const url = new URL(request.url);
 // API endpoint to execute raw queries
 		if (url.pathname === "/api/query" && request.method === "POST") {
 			try {
